@@ -1,0 +1,11 @@
+def is_even(number):
+     if number % 2 == 0:
+        return True
+     else:
+        return False
+value = int(input("Enter your number: "))
+result = is_even(value)
+if result:
+   print("Even")
+else:
+   print("Odd")
