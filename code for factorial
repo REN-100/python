@@ -1,0 +1,14 @@
+# Replace ___ with your code
+
+# define compute_factorial() function
+def compute_factorial(n):
+    factorial = 1
+    for i in range(1,n+1):
+        factorial *=i
+    return factorial
+# get user input
+number = int(input())
+
+total = compute_factorial(number)
+
+print(total)
