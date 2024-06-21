@@ -1,0 +1,25 @@
+Create a program to print the occurrence of a character in the string.
+
+Take string input and store it in the string1 variable.
+Take a character input (a string with a single character) and store it in character1 variable.
+Create a variable named count and initialize it to 0.
+Use a for loop to iterate through string1.
+Inside the loop, check the occurrence of the character in the string. If it's True, increment count by 1.
+Print the count variable.
+Assumption: We will assume the user will first enter a string and then a single character.
+
+
+# take string input for string1
+string1 = input()
+l = list(string1)
+
+# take character input for character1
+character1 = input()
+
+count = 0
+count = l.count(character1)
+    # check if character is present in the string or not
+if character1 in l:
+    print(count)
+else:
+    print(0)
